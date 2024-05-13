@@ -27,7 +27,7 @@ header#cabecalho img#icone {
  header#cabecalho{
     border-bottom: 1px #606060 solid ;
     height: 150px;
-    background: url("_fotos/4897896 logo.png")no-repeat 0px 80px;
+    background: url("../_fotos/DG.png")no-repeat 0px 80px;
 }
 header#cabecalho h1{
     font-family: Arial, sans-serif; 
