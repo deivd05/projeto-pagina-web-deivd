@@ -5,7 +5,7 @@
 }
 body {
 	background-color: #ffffff;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -26,8 +26,8 @@ p {
 
 header#cabecalho img#icone {
     position:absolute;
-    left: 980px;
-    top:50px ;
+    left: 950px;
+    top:40px ;
  }
 
  header#cabecalho{
@@ -87,9 +87,9 @@ nav#menu {
 nav#menu ul {
     list-style:none;
     text-transform: uppercase;
-    position: absolute;
+    position: relative;
     top: 10px;
-    left: 700px;
+    left: -20px;
 }
 nav#menu li {
     display:inline-block;
@@ -120,12 +120,12 @@ section#corpo{
     display: block;
     width: 600px;
     float:left;
-    border-right: 2px solid #606060;
+    border-right: 1px solid #606060;
     padding-right: 5px;
 }
 aside#lateral{
     display: block;
-    width: 400px;
+    width: 500px;
     float:right;
 }
 footer#rodape{
