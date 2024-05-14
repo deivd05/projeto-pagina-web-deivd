@@ -90,7 +90,7 @@ nav#menu ul {
     top: 10px;
     left: 500px;
 }
-nav#menu li{
+nav#menu li {
     display:inline-block;
     background-color: #dddddd;
     padding: 10px;
@@ -114,4 +114,29 @@ nav#menu a {
 nav#menu a:hover {
     color :#ffffff;
     text-decoration: underline;
+}
+section#corpo{
+    display: block;
+    width: 600px;
+    float:left;
+    border-right: 2px solid #606060;
+    padding-right: 5px;
+}
+aside#lateral{
+    display: block;
+    width: 400px;
+    float:right;
+}
+footer#rodape{
+    clear:both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p {
+    text-align: center;
+}
+footer#rodape h2 {
+    text-align: center;
+}
+footer#rodape li {
+    text-align: center;
 }
