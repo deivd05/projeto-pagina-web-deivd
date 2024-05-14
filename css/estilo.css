@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family:'fontelogo';
-    src:url("fonts/computer-font.ttf");
+    src:url("../fonts/computer-font.ttf");
 }
 body {
 	background-color: #dddddd;
@@ -32,7 +32,7 @@ header#cabecalho img#icone {
  header#cabecalho{
     border-bottom: 1px #606060 solid ;
     height: 150px;
-    background: url("../fotos/DG.png")no-repeat 0px 80px;
+    background: url("fotos/Modern Cyan Technology Logo.png")no-repeat 0px 80px;
 }
 header#cabecalho h1{
     font-family: 'fontelogo', sans-serif; 
