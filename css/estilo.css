@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face{
+    font-family:'fontelogo';
+    src:url("fonts/computer-font.ttf");
+}
 body {
     background-color:#dddddd;
     color:rgba(0, 0, 0, 1);
@@ -30,7 +33,7 @@ header#cabecalho img#icone {
     background: url("../fotos/DG.png")no-repeat 0px 80px;
 }
 header#cabecalho h1{
-    font-family: Arial, sans-serif; 
+    font-family: 'fontelogo', sans-serif; 
     font-size: 30pt;
     color:#606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0,.6); 
@@ -38,7 +41,7 @@ header#cabecalho h1{
     margin-bottom: 0px;
 }
 header#cabecalho h2{
-    font-family: Arial, sans-serif;
+    font-family: 'fontelogo', sans-serif;
     font-size: 15pt;
     color: #888888;
     padding: 0px;
