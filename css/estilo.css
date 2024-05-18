@@ -1,11 +1,12 @@
 @charset "UTF-8";
 @font-face{
     font-family:'fontelogo';
-    src:url("../fonts/computer-font.ttf");
+    src url("../fonts/computer-font.ttf");
 }
 body {
+    font-family: Arial,sans-serif;
 	background-color: #ffffff;
-    text-align: center;
+    text-align:center;
 }
 
 
@@ -15,15 +16,21 @@ div#interface {
     background: color #dddddd;;
     margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
-    padding:  20px;
+    padding:  5px;
 }
 
 p {
     text-align:justify;
-    text-indent:30px;
+    text-indent:20px;
 }
 /* formataçao de cabecalho*/
-
+a {
+    color: rgba(rgba(255, 0, 0, 0), green, rgba(0, 0, 255, 0), alpha);
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:solid ;
+}
 header#cabecalho img#icone {
     position:absolute;
     left: 950px;
