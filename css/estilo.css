@@ -9,8 +9,6 @@ body {
     text-align:center;
 }
 
-
-
 div#interface {
     width: 1150px;
     background: color #dddddd;;
@@ -44,10 +42,10 @@ header#cabecalho img#icone {
 }
 header#cabecalho h1{
     font-family: 'fontelogo', sans-serif; 
-    font-size: 30px;
-    color:#606060;
+    font-size: 0;
+    color:transparent
     text-shadow: 1px 1px 1px rgba(0, 0, 0,.6); 
-    padding: 0px;
+    padding: 30px;
     margin-bottom: 0px;
 }
 header#cabecalho h2{
