@@ -11,10 +11,10 @@ body {
 
 div#interface {
     width: 1150px;
-    background: color #dddddd;;
+    background: color #dddddd;
     margin: -20px auto 10px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
-    padding:  5px;
+    padding:  15px;
 }
 
 p {
@@ -32,18 +32,18 @@ a:hover {
 header#cabecalho img#icone {
     position:absolute;
     left: 950px;
-    top:40px ;
+    top:20px ;
  }
 
  header#cabecalho{
     border-bottom: 1px #606060 solid ;
     height: 150px;
-    background: url("fotos/Modern Cyan Technology Logo.png")no-repeat 0px 80px;
+    background :url("fotos/Modern Cyan Technology Logo.png")no-repeat 0px 80px;
 }
 header#cabecalho h1{
     font-family: 'fontelogo', sans-serif; 
-    font-size: 0;
-    color:transparent
+    font-size: 1;
+    color:transparent;
     text-shadow: 1px 1px 1px rgba(0, 0, 0,.6); 
     padding: 30px;
     margin-bottom: 0px;
@@ -60,13 +60,13 @@ header#cabecalho h2{
 
 
 figure.foto-legenda {
-    position: absolute;
+    position:absolute;
     border: 10px solid white;
     box-shadow: 1px 1px 4px black;
 }
 figure.foto-legenda img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 figure.foto-legenda figcaption {
@@ -145,4 +145,30 @@ footer#rodape h2 {
 }
 footer#rodape li {
     text-align: center;
+}
+section#portao{
+    display: block;
+    float: left;
+    margin:auto ;
+}
+aside#lateral{
+    display:block;
+    float: left;
+    padding-right:25pt;
+}
+section#interfones{
+    display:block;
+    float: right;
+    margin: auto;
+}
+aside#lateralesquerda img{
+    display:block;
+    float: right;
+    
+    
+}
+aside#lateralesquerda {
+    display:block;
+    text-align:left;
+    padding-left:25pt;
 }
