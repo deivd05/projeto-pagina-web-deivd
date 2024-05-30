@@ -145,6 +145,7 @@ footer#rodape h2 {
 }
 footer#rodape li {
     text-align: center;
+    list-style: none;
 }
 section#portao{
     display: block;
