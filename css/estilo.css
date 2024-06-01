@@ -169,3 +169,9 @@ aside#lateralesquerda {
     text-align:left;
     padding-left:25pt;
 }
+div.whats{
+    position: fixed;
+    bottom: 10px;
+    height: 10px;
+    z-index: 999;
+}
