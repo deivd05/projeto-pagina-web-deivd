@@ -13,6 +13,7 @@ header {
 
 main {
     padding: 2em;
+    background-color:#888888;
 }
 
 form {
@@ -43,4 +44,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+button:hover{
+    background-color: #888888;
 }
