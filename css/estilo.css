@@ -126,8 +126,8 @@ section#corpo{
 }
 aside#lateral{
     display: block;
-    width: 500px;
-    float:right;
+    width: 300px;
+    float:left;
 }
 footer#rodape{
     clear:both;
