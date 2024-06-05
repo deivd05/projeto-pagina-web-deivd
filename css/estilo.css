@@ -150,8 +150,10 @@ section#portao{
 }
 aside#lateral{
     display:block;
-    float: left;
+    float: right;
+    position: relative;
     padding-right:25pt;
+    width: 450px;
 }
 section#interfones{
     display:block;
