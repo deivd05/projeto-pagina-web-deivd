@@ -28,14 +28,8 @@ fieldset#sexo {
     width: 250px;
 }
 fieldset#usuario {
-    background: url("../imagens/icone-contato.png") no-repeat 95% 95%;
+    background: url("../fotos/icone-contato.png") no-repeat 95% 95%;
 }
 fieldset#endereco {
-    background: url("../imagens/icone-endereco.png") no-repeat 95% 95%;
-}
-fieldset#mensagem {
-    background: url("../imagens/icone-mensagem.png") no-repeat 95% 95%;
-}
-fieldset#pedido {
-    background: url("../imagens/icone-pagamento.png") no-repeat 95% 95%;
+    background: url("../fotos/icone-endereco.png") no-repeat 95% 95%;
 }
