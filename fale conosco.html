@@ -37,7 +37,6 @@
 
 <fieldset id="usuario"><legend>identificação do Usuário</legend>
     <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="nome completo"/></p>
-    <p><label>Senha:</label> <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8digitos"/></p>
     <p><label>E-mail:</label><input type="email" name="tmail" id="cmail" size="20" placeholder="@"/></p>
     <fieldset id="sexo"><legend>sexo</legend>
         sexo:
@@ -68,6 +67,10 @@
         <option value="São gonçalo"></option>
         <option value="Cabo Frio"></option>
     </datalist>
+</fieldset>
+<fieldset id="mensagem"><legend>Mensagem  do Usuário</legend>
+    <p><label for="cMsg">Mensagem:</label>
+    <textarea name="tNsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
 </fieldset>
 
 <input type="submit"value="Enviar"/>
